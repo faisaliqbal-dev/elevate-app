@@ -1,14 +1,12 @@
 {
-    "name": "elevate-app",
-    "version": "1.0.0",
-    "description": "Elevate lab node app",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-      "test": "echo \"Running dummy test...\" && exit 0"
-    },
-    "dependencies": {
-      "express": "^4.17.1"
-    }
+  "name": "elevate-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo Running dummy test... && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
-  
+}

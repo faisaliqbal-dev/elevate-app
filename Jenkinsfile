@@ -1,6 +1,11 @@
 pipeline{
     agent any
     stages{
+        stage('Clone') {
+            steps {
+                git branch: 'main', url: 'https://github.com/faisaliqbal-dev/elevate-app.git'
+            }
+        }
         stage("build"){
             steps{
                 echo 'installing dependencies'
